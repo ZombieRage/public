@@ -1,7 +1,7 @@
 # ZombieRage - ZEConfigs
 º Tutoriais criados com a intenção de ajudar o leitor a criar configs básicas para mapas do modo zombie escape do jogo Counter Strike Global Offensive.
 
-º Antes de tudo, você deve primeiro adquirir alguns programas básicos para facilitar a criação de cfgs como **VIDE e **Notepad++**, e em casos mais avançados **BSPsource** e **Hammer (CSGO - SDK)**.
+º Antes de tudo, você deve primeiro adquirir alguns programas básicos para facilitar a criação de cfgs como **VIDE** e **Notepad++**, e em casos mais avançados **BSPsource** e **Hammer (CSGO - SDK)**.
 
 º Todos esses programas citados acima você pode adquirir através do website dos mesmos:
 - VIDE: http://www.riintouge.com/VIDE/
