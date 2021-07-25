@@ -33,4 +33,4 @@ Ume exemplo de problema seria erro no mapa  onde se chega em um local especifico
  > Chegando no level timeloop do mapa após tomar tp para a zona cinzenta há um momento que o servidor crasha por completo, ouvir falar que já ocorreu mais de uma vez numa mesma situação como está.
 
 ## Como contribuir com alguma configuração
-Siga nosso modelos para criação em
+Siga nossos [tutoriais](/ZEConfigs/) para criar as configurações, e após isso crie um issue solicitando a adição da sua configuração, não esquecendo de utilizar de uma boa formatação.
