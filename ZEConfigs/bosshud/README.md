@@ -49,17 +49,17 @@ Vamos agora a uma leve explicação da função daqueles parâmetros, incluindo 
 ## Etapa 3
 Levando em consideração que você ja possui os programas necessários para realizar a criação da config e o conhecimento básico, inicie o programa **VIDE**:
 <p align="center">
-  <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_2.png" width="75%" /><br>
+  <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/geral_1.png" width="75%" /><br>
 </p>
 
 Após isso vá ate a aba **TOOLS** e logo em seguida **ENTITY LUMP EDITOR**:
 <p align="center">
-  <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_3.png" width="75%" /><br>
+  <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/geral_2.png" width="75%" /><br>
 </p>
 
 Após isso vá ate a aba **FILE**, depois **OPEN**, localize o mapa em questão e selecione-o:
 <p align="center">
-  <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_4.png" width="75%" /><br>
+  <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/geral_3.png" width="75%" /><br>
 </p>
 
 ### Criando uma cfg para boss do tipo math_counter
