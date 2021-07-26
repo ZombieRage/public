@@ -104,6 +104,7 @@ Caso o boss não utilize `math_counter`, ele será do tipo **"breakable"**, ou s
 
 Realizamos a busca e achamos um boss que progride sua vida através de `func_breakable`, então ja podemos especificá-lo como tipo **"breakable"** juntamente com o seu targetname na nossa cfg.
 
+### Finalizando a cfg dos bosses
 Enfim todas informações de que precisamos para esse tipo de boss apareceram, pois sabemos o targetname e sabemos que tipo de boss é, então vamos anotar na nossa config:
 <p align="center">
   <img src="https://cdn.zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_9.png" width="75%" /><br>
