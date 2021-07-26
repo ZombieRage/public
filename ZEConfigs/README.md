@@ -8,6 +8,6 @@
 - Notepad++: https://notepad-plus-plus.org/downloads/
 - BSPsource (apenas se você pretende fazer stripper config): https://developer.valvesoftware.com/wiki/BSPSource
 
-º Após ter em mãos todos os programas necessários, prossiga para o diretório da config (bosshud, entWatch, stripper, zeranking) desejada onde encontrará informações sobre as demais configs.
+º Após ter em mãos todos os programas necessários, prossiga para o diretório da config ([bosshud](/ZEConfigs/bosshud/), entWatch, [stripper](/ZEConfigs/stripper/), zeranking) desejada onde encontrará informações sobre as demais configs.
 
 º Qualquer dúvida você pode usar o canal **#developing** ou **#mapping** no nosso discord: http://discord.zrage.com.br/
