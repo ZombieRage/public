@@ -4,14 +4,14 @@
 		{
 			"name": "ZRAGE BR | Zombie Escape",
 			"mapList": "https://raw.githubusercontent.com/ZombieRage/public/master/MapDownloaderApp/maps_csgoze.csv",
-			"fastDL": "https://cdn.zrage.cf/file/zrgbrasil/csgo/maps/",
+			"fastDL": "https://cdn.zrage.tk/file/zrgbrasil/csgo/maps/",
 			"appID": "730",
 			"mapsDirectory": "\\csgo\\maps\\"
 		},
 		{
 			"name": "ZRAGE BR | Trouble in Terrorist Town",
 			"mapList": "https://raw.githubusercontent.com/ZombieRage/public/master/MapDownloaderApp/maps_csgottt.csv",
-			"fastDL": "https://cdn.zrage.cf/file/zrgbrasil/csgo/maps/",
+			"fastDL": "https://cdn.zrage.tk/file/zrgbrasil/csgo/maps/",
 			"appID": "730",
 			"mapsDirectory": "\\csgo\\maps\\"
 		}
