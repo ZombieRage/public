@@ -12,7 +12,7 @@ Tendo conhecido o formato de uma cfg, vale ressaltar que a cfg de modelo base po
 - Boss4 <- Boss que usa a vida da propia entidade de hitbox como breakable ou physbox.
 
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_1.png" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_1.png" /><br>
   Exemplo de barra de hp custom em um mapa.
 </p>
 
@@ -49,23 +49,23 @@ Vamos agora a uma leve explicação da função daqueles parâmetros, incluindo 
 ## Etapa 3
 Levando em consideração que você ja possui os programas necessários para realizar a criação da config e o conhecimento básico, inicie o programa **VIDE**:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/geral_1.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/geral_1.png" width="75%" /><br>
 </p>
 
 Após isso vá ate a aba **TOOLS** e logo em seguida **ENTITY LUMP EDITOR**:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/geral_2.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/geral_2.png" width="75%" /><br>
 </p>
 
 Após isso vá ate a aba **FILE**, depois **OPEN**, localize o mapa em questão e selecione-o:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/geral_3.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/geral_3.png" width="75%" /><br>
 </p>
 
 ### Criando uma cfg para boss do tipo math_counter
 Após isso todas as entidades do mapa selecionado vão ser listadas, porém o que buscamos são apenas as entidades de vida dos bosses ou seja `"math_counter"` ou `"func_breakable/physbox"` por exemplo, então vamos procurar por um destes através do **FILTER OPTIONS**:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_5.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_5.png" width="75%" /><br>
 </p>
 
 Realizamos a busca e achamos alguns bosses que progridem sua vida através de `math_counter`, se temos a informação de que o boss não possui barra de HP custom, então todos os parâmetros **"HPbar"** na cfg serão desconsiderados, nesse caso você so vai usar o targetname do counter de HP principal e o nome do boss para este tipo de boss.<br>
@@ -73,14 +73,14 @@ Agora se o Boss possui barra de HP custom que é o caso do mapa mostrado acima, 
 
 Vamos procurar então pelas informações que precisamos para este tipo de boss, já que eu procuro por um boss específico chamado *"pirate"*, vou digitar na barra de filtragem por *"pirate_hp"* para tentar achar o `math_counter` principal que é o counter que administra os outros:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_6.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_6.png" width="75%" /><br>
 </p>
 
 Como se pode observar pelos outputs deste `math_counter`, ele é o nosso counter principal pois ele administra outro counter de hp backup e outro counter responsável por certos eventos do boss, logo vamos adicionar o targetname *"pirate_counter"* no parâmetro **"HP_counter"** da nossa cfg.
 
 Agora precisamos do `math_counter` responsável pela barra de hp, achar esse counter é a parte mais facil pois este counter é responsável por matar todas as entidades do boss quando a barra de hp do mesmo é zerada, logo vamos procurar por um counter que possua outputs responsáveis por matar as entidades do boss:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_7.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_7.png" width="75%" /><br>
 </p>
 
 Como se pode observar pelos outputs de Kill deste `math_counter`, ele é o counter responsável pela barra de hp, logo vamos adicionar o targetname *"pirate_hp_iterations"* ao parâmetro **"HPbar_counter"** da nossa cfg.
@@ -99,7 +99,7 @@ Pronto, seguindo estes passos ate o momento, você finalizou a cfg de um boss qu
 ### Criando uma cfg para boss do tipo breakable
 Caso o boss não utilize `math_counter`, ele será do tipo **"breakable"**, ou seja precisamos achar um boss que administre a própia vida através de um `func_breakable`, `func_physbox` ou `func_physxbox_multiplayer`:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_8.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_8.png" width="75%" /><br>
 </p>
 
 Realizamos a busca e achamos um boss que progride sua vida através de `func_breakable`, então ja podemos especificá-lo como tipo **"breakable"** juntamente com o seu targetname na nossa cfg.
@@ -107,12 +107,12 @@ Realizamos a busca e achamos um boss que progride sua vida através de `func_bre
 ### Finalizando a cfg dos bosses
 Enfim todas informações de que precisamos para esse tipo de boss apareceram, pois sabemos o targetname e sabemos que tipo de boss é, então vamos anotar na nossa config:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_9.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_9.png" width="75%" /><br>
 </p>
 
 Agora so falta o nome do boss para inserir no parâmetro **"CustomText"**, dá para descobrir isso facilmente através de uma leve pesquisada com o targetname do breakable no **FILTER OPTIONS**:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_10.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_10.png" width="75%" /><br>
 </p>
 
 Como se pode observar, achamos uma entidade chamada BossEnds e ele possui um output com uma mensagem de chat nos dizendo o nome do boss, *BUTTERFLY*.
@@ -123,5 +123,5 @@ Vamos então fazer uma copia local da nossa [modelobase.cfg](/ZEConfigs/bosshud/
 
 Você deve fazer isso para todos os bosses do mapa, quando finalmente terminar o trabalho, você deve salvar em formato CFG com o nome do mapa em questão, por exemplo **ze_shroomforest_p6.cfg**:
 <p align="center">
-  <img src="https://fastdl.cdn-zrage.cf/file/zrgbrasil/misc/githubfiles/public/bosshud_11.png" width="75%" /><br>
+  <img src="http://fastdl.zrage.com.br/misc/githubfiles/public/bosshud_11.png" width="75%" /><br>
 </p>
