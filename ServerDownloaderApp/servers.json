@@ -3,8 +3,8 @@
 	[
 		{
 			"name": "ZRAGE BR | Zombie Escape",
-			"mapListUrl": "https://raw.githubusercontent.com/ZombieRage/public/ServerDownloaderApp/maps_csgoze.csv",
-			"assetsListUrl": "https://raw.githubusercontent.com/ZombieRage/public/ServerDownloaderApp/assets_csgoze.txt",
+			"mapListUrl": "https://raw.githubusercontent.com/ZombieRage/public/master/ServerDownloaderApp/maps_csgoze.csv",
+			"assetsListUrl": "https://raw.githubusercontent.com/ZombieRage/public/master/ServerDownloaderApp/assets_csgoze.txt",
 			"fastDLUrl": "https://kanto.zrage.com.br/file/zrgbrasil/csgo/",
 			"steamAppId": "730",
 			"gameDirectory": "\\csgo",
@@ -12,8 +12,8 @@
 		},
 		{
 			"name": "ZRAGE BR | Trouble in Terrorist Town",
-			"mapListUrl": "https://raw.githubusercontent.com/ZombieRage/public/ServerDownloaderApp/maps_csgottt.csv",
-			"assetsListUrl": "https://raw.githubusercontent.com/ZombieRage/public/ServerDownloaderApp/assets_csgottt.txt",
+			"mapListUrl": "https://raw.githubusercontent.com/ZombieRage/public/master/ServerDownloaderApp/maps_csgottt.csv",
+			"assetsListUrl": "https://raw.githubusercontent.com/ZombieRage/public/master/ServerDownloaderApp/assets_csgottt.txt",
 			"fastDLUrl": "https://kanto.zrage.com.br/file/zrgbrasil/csgo/",
 			"steamAppId": "730",
 			"gameDirectory": "\\csgo",
