@@ -18,6 +18,15 @@
 			"steamAppId": "730",
 			"gameDirectory": "\\csgo",
 			"mapsDirectory": "\\maps"
+		},
+		{
+			"name": "ZRAGE BR | Zombie Survival",
+			"mapListUrl": "https://raw.githubusercontent.com/ZombieRage/public/master/ServerDownloaderApp/maps_csgozm.csv",
+			"assetsListUrl": "https://raw.githubusercontent.com/ZombieRage/public/master/ServerDownloaderApp/assets_csgozm.txt",
+			"fastDLUrl": "https://kanto.zrage.com.br/file/zrgbrasil/csgo/",
+			"steamAppId": "730",
+			"gameDirectory": "\\csgo",
+			"mapsDirectory": "\\maps"
 		}
 	]
 }
